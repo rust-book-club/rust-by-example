@@ -77,7 +77,7 @@ I'm sure there are places where it's useful, but this example is a bit contrived
 
 ## 15.4 Lifetimes
 
-A _variable's_ lifetime starts at construction and ends at destruction.
+A _variable's_ scope starts at construction and ends at destruction.
 
 But a _reference's_ lifetime starts at its declaration site and ends when it is used for the last time. As mentioned above, this is not necessarily the same as when it goes out of scope. It is less than or equal to that duration.
 

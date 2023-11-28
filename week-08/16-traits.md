@@ -70,7 +70,7 @@ You may be thinking: ["what's the difference between `Clone` and `Copy`?"](https
 - Think of `Copy` like literally copying the bytes in memory that represent an object. It's easy and should be cheap.
 - `Clone` is more expensive, may require some setup; it can be "arbitrarily complicated".
 
-Primitives implement `Copy`, but not `Clone`. `Clone` implies "move semantics". `Clone` is explicit, `Copy` is implicit.
+Primitives implement `Copy`, but not `Clone`. `Clone` implies "move semantics", `Copy` implies "copy semantics". `Clone` is explicit, `Copy` is implicit.
 
 ## 16.8 Supertraits
 
